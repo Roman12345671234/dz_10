@@ -604,11 +604,6 @@ button:hover {
     height: 495px !important;
     text-decoration: none !important;
 }
-.ui-button-icon-only .ui-icon {
-    position: absolute;
-    margin-top: -8px;
-    margin-left: -8px;
-}
 .ui-dialog .ui-dialog-titlebar {
     padding: 0 !important;
     margin: 0 !important;
@@ -642,27 +637,15 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: none;
 }
-.ui-button-icon-only .ui-icon {
-    font-size: 1em;
-    border-color: transparent;
-    position: absolute;
-    top: -490% !important;
-    right: -500% !important;
-    margin-top: -8px;
-    margin-left: -8px;
-}
 .ui-widget .ui-widget {
-    background: transparent;
     border: none;
     bottom: 400%;
     position: absolute !important;
-
 }
 .ui-button-icon-only .ui-icon {
     position: absolute !important;
-    top: -70px !important;
+    top: -82px !important;
     left: 20px !important;
-    background-color: black;
     margin-top: -8px;
     margin-left: -8px;
 }
@@ -691,5 +674,11 @@ a:-webkit-any-link {
     width: 0 !important;
     padding: 0 !important;
     height: 0 !important;
+}
+.ui-button .ui-icon {
+    background: url(../images/close.svg) !important;
+    height: 30px !important;
+    width: 30px !important;
+    background-repeat: no-repeat !important;;
 }
 
