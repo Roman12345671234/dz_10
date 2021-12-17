@@ -676,9 +676,8 @@ a:-webkit-any-link {
     height: 0 !important;
 }
 .ui-button .ui-icon {
-    background: url(../images/close.svg) !important;
+    background: url(../images/close.svg) no-repeat !important;
     height: 30px !important;
     width: 30px !important;
-    background-repeat: no-repeat !important;;
 }
 
