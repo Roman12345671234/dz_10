@@ -581,3 +581,12 @@ button:hover {
     background-repeat: no-repeat;
     margin-left: 0;
 }
+.ui-dialog .ui-dialog-title {
+    float: left;
+    margin: 1em 0px;
+    white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 100px;
+}
